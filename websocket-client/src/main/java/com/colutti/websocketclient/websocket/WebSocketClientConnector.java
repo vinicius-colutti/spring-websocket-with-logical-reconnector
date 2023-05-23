@@ -11,7 +11,7 @@ public class WebSocketClientConnector{
 
     private static final String WS_ENDPOINT = "ws://localhost:8080/server"; // Substitua pelo seu endpoint WebSocket
 
-    public void start() throws Exception {
+    public void start() {
         WebSocketClient webSocketClient = new StandardWebSocketClient();
         WebSocketStompClient stompClient = new WebSocketStompClient(webSocketClient);
 

@@ -12,7 +12,7 @@ public class SocketStartClient {
     WebSocketClientConnector webSocketClientConnector;
 
     @Bean
-    public void initConnection() throws Exception {
+    public void initConnection() {
         webSocketClientConnector.start();
     }
 
